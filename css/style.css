@@ -7,21 +7,29 @@ header {
 	background-image: url("../images/top-banner.png");
 	background-repeat: no-repeat;
 	padding: 10px;
+	margin-bottom: 100px;
 }
-header h1 {
+h1 {
 	font-size: 47px;
 }
 header h1 span {
 	color: orange;
 }
-header .half-width {
+.half-width {
 	width: 50%;
 	padding-left: 5%;
 }
 .half-width img {
 	width: 80%;
 }
-header .half-width a {
+.dream-area {
+	display: flex;
+	padding: 10px;
+	background-image: url("../images/dream-bg.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.half-width a {
 	color: white;
 	font-size: 16px;
 	text-decoration: none;
